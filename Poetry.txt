@@ -1,0 +1,124 @@
+
+<style>
+body{
+background-color:black;
+border:3px solid green;
+}
+.container{
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+background-color:black;
+height:30px;
+}
+.item{
+margin-top:10px;
+background-color:green;
+border:3px dashed lightgreen;
+}
+.line{
+colour:lightgreen;
+border:3px solid green;
+}
+.lie{
+color:green;
+border:3px solid lighgreen;
+}
+.poetry{
+background-color:green;
+border:3px solid lightgreen;
+border-radius: 0 0 20px 20px;
+text-align:center;
+color:black;
+font-family:cursive;
+font-wieght:bold;
+margin:5px;
+}
+.h3{
+color: green;
+text-align: center;
+background-color:yellow;
+border-radius: 10px 10px 10px 10px;
+border: 2px solid green;
+padding:5px;
+margin-top:auto;
+}
+.bottom{
+background-color:green;
+height:500px;
+margin:5px;
+}
+.paragraph{
+background-color:lightgreen;
+color: black;
+border-radius: 10px 0 10px 0;
+padding:10px;
+text-align:center;
+margin:10px;
+}
+#comment{
+background-color: lightyellow;
+color:green;
+text-align:center;
+margin-left:40px;
+padding:10px;
+border-radius: 10px 10px 10px 10px;
+}
+.footer{
+margin:5px;
+height:100px;
+background-color:green;
+}
+.detail{
+color:black;
+text-align:center;
+background-color:lightgreen;
+border-radius: 0 0 10px 10px;
+margin:5px;
+}
+.contact{
+background-color:lightyellow;
+}
+.con{
+position:absolute;
+right:20px;
+bottom:10px;
+color:white;
+}
+</style>
+
+<!DOCTYPE html>
+<html>
+<head>
+   <title>poetry.in</title>
+</head>
+<body>
+<div class="poetry">
+<h1> poetry.in </h1>
+</div>
+<div class="container">
+<button class="item"> fantasy </button>
+<button class="item"> love </button>
+<button class="item"> friends </button>
+<button class="item"> other </button>
+</div> <hr class="line">
+<div class="bottom">
+<h3 class="paragraph"> hello everyone welcome to poetry.in </h3>
+<p class="paragraph"> you want any stories in website there are 50+ stories and this web is also updated 
+there are your favourite stories like - fantasy,motive,friends,love and many more</p>
+<p class="paragraph"> if you like stories so read my personal story on pocketnovel.com or click on link >   </p> 
+<p class="paragraph"> if you also like story so please comment and more information to contact us on instagram -    </p>
+<hr class="lie">
+<p style="text-align:center;"> comment 👇 </p>
+<hr class="lie">
+<input type="comment" placeholder="comment" id="comment"> 
+<button class="item" style="padding:10px;"> comment </button>
+</div>
+<footer class="footer"> 
+<p class="detail"> contact us </p>
+<p class="contact"> on insta -       </p>
+<p class="con"> by- pawan kumar </p>
+<p class="detail" style="border-radius:10px 10px 0 0 ;"> ok by thanks </p>
+</footer>
+</body>
+</html>
